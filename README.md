@@ -23,7 +23,8 @@ Installation
 Clone this repository or extract the zip file
 <br>
 <br>
-bashCopygit clone https://github.com/raahulydv7/Bar-Chart-Generator.git
+<pre>git clone https://github.com/raahulydv7/Bar-Chart-Generator.git</pre>
+
 <br>
 cd bar-chart-generator
 
@@ -33,8 +34,9 @@ cd bar-chart-generator
 Install the required dependencies:
 <br>
 <br>
-bashCopypip install dash plotly pandas dash-bootstrap-components
-
+<pre>
+pip install dash plotly pandas dash-bootstrap-components
+</pre>
 <br>
 <br>
 Running the Application
@@ -67,7 +69,8 @@ Your new dataset will appear in the dropdown menu and can be used immediately
 <br>
 <br>
 Project Structure
-Copybar-chart-generator/
+<pre>
+bar-chart-generator/
 │
 ├── app.py            # Main application file
 ├── datasets.py       # Dataset configuration and management
@@ -75,6 +78,9 @@ Copybar-chart-generator/
 ├── assets/
 │   └── styles.css    # CSS styling for the application
 └── README.md         # Documentation
+└── requirements.txt 
+
+</pre>
 Predefined Datasets
 The application comes with three predefined datasets:
 
@@ -107,4 +113,4 @@ add_dataset(
     categories=["Category1", "Category2", "Category3"],
     default_values=[10, 20, 30]
 )
-Or by directly editing the datasets dictionary in the datasets.py file.
+Or by directly editing the datasets dictionary in the datasets.py file .
