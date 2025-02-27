@@ -23,10 +23,12 @@ Installation
 Clone this repository or extract the zip file
 <br>
 <br>
-<pre>git clone https://github.com/raahulydv7/Bar-Chart-Generator.git</pre>
-
+<pre>git clone https://github.com/raahulydv7/Bar-Chart-Generator.git
 <br>
-cd bar-chart-generator
+cd bar-chart-generator</pre>
+
+
+
 
 <br>
 <br>
@@ -107,10 +109,12 @@ Programmatically Adding New Datasets
 Developers can also add new datasets by modifying the datasets.py file:
 pythonCopyfrom datasets import add_dataset
 
+<pre>
 # Add a new dataset
 add_dataset(
     name="New Dataset",
     categories=["Category1", "Category2", "Category3"],
     default_values=[10, 20, 30]
 )
+</pre>
 Or by directly editing the datasets dictionary in the datasets.py file .
